@@ -2,6 +2,12 @@
   "name": "segment8-skills",
   "skills": [
     "./skills/product/improve-product-feel",
-    "./skills/gtm/pricing-research"
+    "./skills/product/audit-empty-states",
+    "./skills/product/error-copy-review",
+    "./skills/product/onboarding-friction",
+    "./skills/gtm/pricing-research",
+    "./skills/gtm/competitive-positioning",
+    "./skills/gtm/ideal-customer-profile",
+    "./skills/gtm/launch-brief"
   ]
 }

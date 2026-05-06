@@ -46,7 +46,10 @@ Skills for raising the craft level of what already exists.
 
 | Skill | Description |
 |-------|-------------|
-| [improve-product-feel](./skills/product/improve-product-feel/SKILL.md) | Surface friction and propose polish opportunities. Use when you want to improve how a product feels, find defaults masquerading as design, or raise the quality of existing touchpoints. |
+| [improve-product-feel](./skills/product/improve-product-feel/SKILL.md) | Surface friction and propose polish opportunities. Find defaults masquerading as design and raise the quality of existing touchpoints. |
+| [audit-empty-states](./skills/product/audit-empty-states/SKILL.md) | Find every empty state and rewrite them from "nothing here" into actionable moments. |
+| [error-copy-review](./skills/product/error-copy-review/SKILL.md) | Find every error message and rewrite it in the product's voice with a path to recovery. |
+| [onboarding-friction](./skills/product/onboarding-friction/SKILL.md) | Walk the first-run experience and map every moment the product assumes knowledge the user doesn't have. |
 
 ### GTM
 
@@ -55,6 +58,9 @@ Pricing, positioning, and go-to-market strategy.
 | Skill | Description |
 |-------|-------------|
 | [pricing-research](./skills/gtm/pricing-research/SKILL.md) | Produce a pricing analysis grounded in segmentation, targeting and positioning, with banded recommendations, Van Westendorp sensitivity analysis, and optimal revenue mix. |
+| [competitive-positioning](./skills/gtm/competitive-positioning/SKILL.md) | Analyze what competitors claim vs. deliver and define where the product wins on axes they can't match. |
+| [ideal-customer-profile](./skills/gtm/ideal-customer-profile/SKILL.md) | Define who gets disproportionate value from the product with qualifying and disqualifying criteria. |
+| [launch-brief](./skills/gtm/launch-brief/SKILL.md) | Structure a launch around audience, message, channel, and timing through a grilling process that forces articulation of why anyone should care. |
 
 ## Structure
 
