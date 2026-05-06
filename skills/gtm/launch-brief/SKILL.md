@@ -7,121 +7,65 @@ description: Structure a product or feature launch around audience, message, cha
 
 Produce a launch brief that answers the only question that matters: why should the target audience care about this, right now?
 
-A launch brief is not a marketing plan or a project timeline. It's the strategic document that aligns everyone on who we're talking to, what we're saying, why it matters to them, and how we're reaching them. Everything else — the blog post, the tweet, the email, the demo video — flows from the brief. If the brief is wrong, everything downstream is polished noise.
+A launch brief is not a marketing plan or a project timeline. It is the strategic document that aligns everyone on who we are talking to, what we are saying, why it matters to them, and how we are reaching them. Everything else — the blog post, the tweet, the email, the demo video — flows from the brief. If the brief is wrong, everything downstream is polished noise.
 
 ## Principles
 
-- **If you can't say why someone should care, you're not ready to launch.** The brief forces this articulation before any creative work begins.
-- **A launch is a moment, not a campaign.** The brief covers the moment — the initial announcement and its immediate context. Sustained marketing is a different problem.
-- **The audience determines the message.** Different audiences care about different things. A launch aimed at developers needs different framing than one aimed at buyers. Pick one primary audience.
-- **Channels follow audience.** Don't start with "we should do a blog post and a tweet." Start with where the audience is and what format earns their attention there.
+- **If you cannot say why someone should care, you are not ready to launch.** The brief forces this articulation before any creative work begins.
+- **A launch is a moment, not a campaign.** The brief covers the initial announcement and its immediate context. Sustained marketing is a different problem.
+- **The audience determines the message.** Different audiences care about different things. Pick one primary audience. The message follows from who they are and what they need — not from what the product team built.
+- **Channels follow audience.** Do not start with "we should do a blog post and a tweet." Start with where the audience already pays attention and what format earns it.
 
 ## Process
 
-### 1. Define what's launching
+### 1. Define what is launching
 
 Establish with the user:
 
-- **What is it?** — Feature, product, update, pricing change, partnership, milestone. One sentence.
-- **What changed?** — What's different from yesterday? What can the user do now that they couldn't before, or what's better about something they could already do?
-- **Why now?** — Why is this being launched at this moment? Customer demand, competitive pressure, strategic timing, dependency resolved? "It's ready" is not a reason — it's a trigger. The reason matters for messaging.
+- **What is it?** Feature, product, update, pricing change, partnership, milestone. One sentence.
+- **What changed?** What can the user do now that they could not before, or what is better about something they could already do?
+- **Why now?** Why this moment? Customer demand, competitive pressure, strategic timing, dependency resolved? "It is ready" is a trigger, not a reason. The reason matters for messaging.
 
-If the user can't articulate what changed in one sentence, the launch scope isn't defined. Narrow it before proceeding.
+If the user cannot articulate what changed in one sentence, the launch scope is not defined. Narrow it before proceeding.
 
 ### 2. Grill on audience
 
-This is the most important step. Push the user to be specific:
+This is the most important step and the one most often rushed. The goal is to arrive at an audience specific enough that the message writes itself. See AUDIENCE-GRILLING.md for the full framework, the questions to ask, and how to push past "everyone" to a real audience.
 
-- **Who is the primary audience?** — Not "our users." Which users? In what situation? At what stage of their journey with the product?
-- **What do they care about right now?** — Not in general — right now. What problem are they actively trying to solve? What frustration are they living with?
-- **How does this launch connect to what they care about?** — The launch is only interesting if it intersects with something the audience already wants. What's the intersection?
-- **What would make them share this?** — Not "it's cool." What specific reaction — "finally," "I've been asking for this," "this changes how I work" — would make them tell someone?
-- **Who is NOT the audience?** — Who might see this but shouldn't be the target? Being clear about who to ignore prevents message dilution.
-
-If the user says the audience is "everyone," push back. A launch aimed at everyone lands on no one. Even a major product launch has a primary audience whose enthusiasm pulls in everyone else.
+Do not proceed to step 3 until the primary audience is specific enough to be wrong.
 
 ### 3. Craft the message
 
-Work with the user to articulate:
+Work with the user to build a headline claim — one sentence stating what changed and why the audience should care — then stress-test it. Select a narrative arc (problem-to-solution, before-to-after, or limitation-to-capability) and identify 2-3 proof points that back the claim with specifics, not adjectives.
 
-**The headline claim** — one sentence that states what changed and why the audience should care. This is not the final headline — it's the strategic claim that all copy will derive from.
-
-Test the claim:
-- Is it specific enough to be wrong? ("Faster analytics" can't be wrong because it doesn't commit to anything. "Query results in under 2 seconds on datasets up to 50M rows" can be wrong.)
-- Does it connect to what the audience cares about, or just what the product team is proud of?
-- Can a competitor make the same claim? If yes, it's not differentiated enough.
-
-**The proof** — 2-3 specific facts that back the claim. Benchmarks, case studies, concrete capabilities. Not adjectives.
-
-**The narrative arc** — the story structure. Usually one of:
-- **Problem → solution:** "You've been dealing with X. Now you can Y."
-- **Before → after:** "This used to take X. Now it takes Y."
-- **Limitation → capability:** "Until now, you couldn't X. Now you can."
-
-Pick one. All three are fine; mixing them in a single launch creates mush.
+See MESSAGE-TESTING.md for the claim structure, narrative arc options with examples, proof point selection, and the testing frameworks (bar test, competitor test, "so what" test).
 
 ### 4. Select channels
 
-For the primary audience, identify:
+Identify where the primary audience already pays attention, match format to platform, and scope to 2-3 channels done well. Pick the entry point — the canonical asset everything else points back to.
 
-- **Where they already are** — the platforms, communities, newsletters, events where this audience pays attention. Not where you wish they were.
-- **What format earns attention there** — a tweet thread on X/Twitter, a detailed post on a forum, a demo video, a case study. Match the medium to the platform and the message.
-- **What's the entry point** — the one asset that everything else points back to. Usually a blog post or landing page. This is the canonical source of the launch message.
-
-Map the channel plan:
-
-| Channel | Format | Audience segment | Key message angle | Timing |
-|---------|--------|-----------------|-------------------|--------|
-| ... | ... | ... | ... | ... |
-
-Keep it tight. Three channels done well beats eight done generically.
+See CHANNEL-SELECTION.md for the selection framework, channel plan table format, and timing considerations.
 
 ### 5. Produce the brief
 
-Compile everything into a single document:
-
----
-
-**Launch:** [one-line description]
-
-**Date:** [target date]
-
-**Primary audience:** [who, specifically]
-
-**The claim:** [one sentence — what changed and why they should care]
-
-**Proof points:**
-1. [specific, verifiable]
-2. [specific, verifiable]
-3. [specific, verifiable]
-
-**Narrative arc:** [problem→solution / before→after / limitation→capability]
-
-**Entry point:** [the canonical URL or asset]
-
-**Channel plan:**
-[the table from step 4]
-
-**What we're NOT saying:** [messages that are tempting but wrong — off-brand, unverifiable, or aimed at the wrong audience]
-
-**Success signal:** [how we'll know this landed — not vanity metrics, but signals that the target audience received and understood the message]
-
----
+Compile everything into the one-page brief format. See BRIEF-FORMAT.md for the template, guidance on each section, what good and bad look like, and how the brief connects to other GTM artifacts.
 
 ### 6. Review
 
 Before finalizing, run these checks with the user:
 
-- **The bar test:** If you described this launch to a stranger at a bar, would they understand why someone would care? If not, the message is too insular.
-- **The competitor test:** Could a competitor make the same claim? If yes, sharpen.
-- **The "so what" test:** Read the headline claim and ask "so what?" three times. If you can't answer by the third, the claim doesn't go deep enough.
-- **The honest test:** Is every proof point currently true? Not "will be true by launch" — true right now, or will be true with high confidence by the launch date.
+- **The bar test:** Would a stranger understand why someone would care?
+- **The competitor test:** Could a competitor make the same claim?
+- **The "so what" test:** Read the headline claim and ask "so what?" three times.
+- **The honest test:** Is every proof point currently true — not "will be true by launch"?
+
+If any check fails, return to the relevant step and sharpen.
 
 ## Rules
 
 - Never write launch copy before the brief is done. Copy without strategy is decoration.
-- The brief is one page. If it's longer, the thinking isn't sharp enough.
-- Every claim must be verifiable. "Best" and "leading" are not claims — they're adjectives pretending to be claims.
-- Don't launch features that aren't ready. If the feature needs a caveat ("works best when...," "currently limited to..."), the caveat belongs in the brief so the copy handles it honestly.
-- The success signal should be something observable within 1-2 weeks, not a quarterly metric. "Did the target audience engage?" not "did revenue go up?"
-- If the user can't pass the grilling in step 2, the launch isn't ready. Better to delay than to launch without knowing who cares.
+- The brief is one page. If it is longer, the thinking is not sharp enough.
+- Every claim must be verifiable. "Best" and "leading" are not claims.
+- Do not launch features that need caveats without putting the caveat in the brief so the copy handles it honestly.
+- The success signal should be observable within 1-2 weeks, not a quarterly metric.
+- If the user cannot pass the grilling in step 2, the launch is not ready. Better to delay than to launch without knowing who cares.

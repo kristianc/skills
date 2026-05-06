@@ -11,7 +11,7 @@ Error messages are the moments when the product's relationship with the user is 
 
 ## What counts as error copy
 
-- **Validation messages** — inline field errors, form-level errors, constraint violations
+- **Validation messages** — inline field errors, form-level errors, constraint violations (see VALIDATION-MESSAGES.md)
 - **API/network errors** — failed requests, timeouts, 4xx/5xx responses surfaced to the user
 - **Toasts and banners** — transient error notifications
 - **Error pages** — 404, 500, permission denied, not found
@@ -22,44 +22,17 @@ Error messages are the moments when the product's relationship with the user is 
 
 ### 1. Inventory
 
-Use the Agent tool with `subagent_type=Explore` to find every error message in the codebase. Look for:
+Use the Agent tool with `subagent_type=Explore` to find every error message in the codebase. Search for strings containing "error", "fail", "invalid", "wrong", "sorry", "oops", "try again", "went wrong", "unable to", "could not". Check toast/notification calls, validation schemas, error boundary components, HTTP error handlers, and `catch` blocks that surface messages to the UI.
 
-- Strings containing "error", "fail", "invalid", "wrong", "sorry", "oops", "try again", "went wrong", "unable to", "could not"
-- Toast/notification calls with error severity
-- Validation schemas and their message strings
-- Error boundary components and their fallback renders
-- HTTP error handlers and their user-facing messages
-- `catch` blocks that surface messages to the UI
-
-For each one, record:
-- **Location** — file, component, line
-- **Trigger** — what causes this error to appear
-- **Current copy** — the exact text the user sees
-- **Recovery offered** — what action, if any, the user is given (retry, go back, contact support, nothing)
+For each error, record: **location** (file, component, line), **trigger** (what causes it), **current copy** (exact text), and **recovery offered** (retry, go back, contact support, or nothing).
 
 ### 2. Classify
 
-Sort every error into one of these categories:
-
-| Category | The user needs to know... | Example |
-|----------|--------------------------|---------|
-| **User-fixable** | What's wrong and how to fix it | "Email must include @" |
-| **Retriable** | It failed but trying again might work | Network timeout |
-| **Blocking** | It's broken and they can't proceed right now | Service outage |
-| **Informational** | Something didn't work but it's not critical | Background sync failed |
-
-The fix for each category is different. User-fixable errors need specificity. Retriable errors need a retry action. Blocking errors need honesty and a timeframe if possible. Informational errors need to stay quiet.
+Sort every error into one of four categories: **user-fixable**, **retriable**, **blocking**, or **informational**. Each category demands a different posture — specificity, retry action, honesty, or quietness respectively. Full definitions, the right communication posture for each, and edge cases where categories blur: see CLASSIFICATION.md.
 
 ### 3. Score
 
-Rate each error message:
-
-- **Clarity** — does it say what happened? (1 = "Something went wrong", 5 = specific diagnosis)
-- **Recovery** — does it say what to do? (1 = dead end, 5 = clear next step)
-- **Voice** — does it sound like the product? (1 = system-speak, 5 = fully in voice)
-- **Blame** — does it blame the user? (1 = accusatory, 5 = neutral or takes responsibility)
-
-Anything below 3 on any axis is a candidate.
+Rate each error on four axes — **clarity**, **recovery**, **voice**, and **blame** — on a 1-5 scale. Anything below 3 on any axis is a candidate. Full rubric with concrete examples at each score level: see SCORING-RUBRIC.md.
 
 ### 4. Present candidates
 
@@ -71,11 +44,13 @@ For each candidate:
 - **Problems** — which axes scored low and why
 - **Proposed** — rewritten copy with recovery action
 
+Write proposed copy using the patterns in COPY-PATTERNS.md. For inline validation, follow the discipline in VALIDATION-MESSAGES.md.
+
 Ask the user which candidates to finalize.
 
 ### 5. Finalize
 
-For each selected candidate, write the replacement copy and implement it. For each:
+For each selected candidate, write the replacement copy and implement it:
 
 - **Message** — what the user reads (in voice, specific, not apologetic unless the product's voice is apologetic)
 - **Recovery action** — button, link, or inline guidance (retry, edit field, go back, contact support)
@@ -83,10 +58,10 @@ For each selected candidate, write the replacement copy and implement it. For ea
 
 ## Rules
 
-- Never say "Something went wrong" as the entire message. If you truly don't know what happened, say so honestly: "We couldn't complete that request. Try again, and if it keeps happening, [contact support / here's what to check]."
-- Never blame the user for system failures. "Invalid request" when the API is down is a lie.
+- Never say "Something went wrong" as the entire message. If you truly don't know what happened, say so honestly and offer a next step.
+- Never blame the user for system failures.
 - Validation errors must reference the specific field and the specific constraint. "Invalid input" is never acceptable.
-- Error messages should not apologize unless the product voice apologizes. "Sorry" is filler in most products.
+- Error messages should not apologize unless the product voice apologizes.
 - If an error message includes a raw error code or technical string, it's a bug, not copy.
 - Retriable errors must include a retry action, not just suggest retrying in words.
-- Don't hide errors that the user needs to know about. A silent failure that corrupts data is worse than an ugly error that saves it.
+- Don't hide errors the user needs to know about. A silent failure that corrupts data is worse than an ugly error that saves it.

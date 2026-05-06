@@ -72,22 +72,56 @@ skills/
 ├── README.md
 └── skills/
     ├── product/
-    │   └── improve-product-feel/
+    │   ├── improve-product-feel/
+    │   │   ├── SKILL.md
+    │   │   ├── LANGUAGE.md
+    │   │   ├── INTERACTION-DESIGN.md
+    │   │   ├── CONTEXT-FORMAT.md
+    │   │   └── ADR-FORMAT.md
+    │   ├── audit-empty-states/
+    │   │   ├── SKILL.md
+    │   │   ├── TAXONOMY.md
+    │   │   ├── SCORING-RUBRIC.md
+    │   │   └── COPY-PATTERNS.md
+    │   ├── error-copy-review/
+    │   │   ├── SKILL.md
+    │   │   ├── CLASSIFICATION.md
+    │   │   ├── SCORING-RUBRIC.md
+    │   │   ├── COPY-PATTERNS.md
+    │   │   └── VALIDATION-MESSAGES.md
+    │   └── onboarding-friction/
     │       ├── SKILL.md
-    │       ├── LANGUAGE.md
-    │       ├── INTERACTION-DESIGN.md
-    │       ├── CONTEXT-FORMAT.md
-    │       └── ADR-FORMAT.md
+    │       ├── ASSUMPTION-TYPES.md
+    │       ├── FRICTION-MAP-FORMAT.md
+    │       └── REMEDIES.md
     └── gtm/
-        └── pricing-research/
+        ├── pricing-research/
+        │   ├── SKILL.md
+        │   ├── GLOSSARY.md
+        │   ├── METHODOLOGY.md
+        │   ├── VAN-WESTENDORP.md
+        │   ├── SEGMENTATION.md
+        │   ├── BANDED-ANALYSIS.md
+        │   ├── REVENUE-MIX.md
+        │   └── REPORT-TEMPLATE.md
+        ├── competitive-positioning/
+        │   ├── SKILL.md
+        │   ├── GLOSSARY.md
+        │   ├── RESEARCH-FRAMEWORK.md
+        │   ├── AXES.md
+        │   └── POSITIONING-DOCUMENT.md
+        ├── ideal-customer-profile/
+        │   ├── SKILL.md
+        │   ├── GLOSSARY.md
+        │   ├── QUALIFYING-CRITERIA.md
+        │   ├── SCORING-FRAMEWORK.md
+        │   └── ICP-DOCUMENT.md
+        └── launch-brief/
             ├── SKILL.md
-            ├── GLOSSARY.md
-            ├── METHODOLOGY.md
-            ├── VAN-WESTENDORP.md
-            ├── SEGMENTATION.md
-            ├── BANDED-ANALYSIS.md
-            ├── REVENUE-MIX.md
-            └── REPORT-TEMPLATE.md
+            ├── AUDIENCE-GRILLING.md
+            ├── MESSAGE-TESTING.md
+            ├── BRIEF-FORMAT.md
+            └── CHANNEL-SELECTION.md
 ```
 
 ## Creating new skills
