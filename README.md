@@ -20,6 +20,24 @@ npx skills@latest add kristianc/skills
 
 Or add individual skills manually by copying the skill directory into your project's `.claude/skills/` folder.
 
+## Usage
+
+Once installed, invoke a skill by name in Claude Code:
+
+```
+/improve-product-feel
+```
+
+The skill takes over from there — it reads your codebase, walks real flows, and guides you through the process. No configuration needed.
+
+For pricing research, point it at a product or market:
+
+```
+/pricing-research
+```
+
+It will ask you for the inputs it needs (segments, value drivers, constraints) and produce a structured report.
+
 ## Skills
 
 ### Product
