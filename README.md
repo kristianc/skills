@@ -30,6 +30,14 @@ Skills for raising the craft level of what already exists.
 |-------|-------------|
 | [improve-product-feel](./skills/product/improve-product-feel/SKILL.md) | Surface friction and propose polish opportunities. Use when you want to improve how a product feels, find defaults masquerading as design, or raise the quality of existing touchpoints. |
 
+### GTM
+
+Pricing, positioning, and go-to-market strategy.
+
+| Skill | Description |
+|-------|-------------|
+| [pricing-research](./skills/gtm/pricing-research/SKILL.md) | Produce a pricing analysis grounded in segmentation, targeting and positioning, with banded recommendations, Van Westendorp sensitivity analysis, and optimal revenue mix. |
+
 ## Structure
 
 ```
@@ -39,13 +47,23 @@ skills/
 ├── CLAUDE.md
 ├── README.md
 └── skills/
-    └── product/
-        └── improve-product-feel/
+    ├── product/
+    │   └── improve-product-feel/
+    │       ├── SKILL.md
+    │       ├── LANGUAGE.md
+    │       ├── INTERACTION-DESIGN.md
+    │       ├── CONTEXT-FORMAT.md
+    │       └── ADR-FORMAT.md
+    └── gtm/
+        └── pricing-research/
             ├── SKILL.md
-            ├── LANGUAGE.md
-            ├── INTERACTION-DESIGN.md
-            ├── CONTEXT-FORMAT.md
-            └── ADR-FORMAT.md
+            ├── GLOSSARY.md
+            ├── METHODOLOGY.md
+            ├── VAN-WESTENDORP.md
+            ├── SEGMENTATION.md
+            ├── BANDED-ANALYSIS.md
+            ├── REVENUE-MIX.md
+            └── REPORT-TEMPLATE.md
 ```
 
 ## Creating new skills

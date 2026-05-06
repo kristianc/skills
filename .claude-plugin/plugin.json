@@ -1,6 +1,7 @@
 {
   "name": "segment8-skills",
   "skills": [
-    "./skills/product/improve-product-feel"
+    "./skills/product/improve-product-feel",
+    "./skills/gtm/pricing-research"
   ]
 }

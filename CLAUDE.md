@@ -7,6 +7,7 @@ Skills for product craft, GTM, and the work of building Segment8.
 Skills are organized into bucket folders under `skills/`:
 
 - `product/` — product craft, polish, and interaction design
+- `gtm/` — pricing, positioning, and go-to-market strategy
 
 Every skill in a bucket must have:
 
