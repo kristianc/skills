@@ -9,6 +9,7 @@ Skills are organized into bucket folders under `skills/`:
 - `product/` — product craft, polish, and interaction design
 - `gtm/` — pricing, positioning, and go-to-market strategy
 - `security/` — defensive security auditing
+- `engineering/` — production engineering and operational readiness
 
 Every skill in a bucket must have:
 

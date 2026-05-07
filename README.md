@@ -70,6 +70,14 @@ Defensive security auditing for your own product.
 |-------|-------------|
 | [security-review](./skills/security/security-review/SKILL.md) | Audit a codebase for security vulnerabilities — OWASP Top 10, auth/authz gaps, secrets in code, injection vectors, and dependency risks. |
 
+### Engineering
+
+Production engineering and operational readiness.
+
+| Skill | Description |
+|-------|-------------|
+| [production-ready](./skills/engineering/production-ready/SKILL.md) | Audit whether a feature or product is ready to survive real users at scale — error handling, observability, deployment safety, resilience, and operational readiness. |
+
 ## Structure
 
 ```
@@ -130,11 +138,18 @@ skills/
         │       ├── MESSAGE-TESTING.md
         │       ├── BRIEF-FORMAT.md
         │       └── CHANNEL-SELECTION.md
-        └── security/
-            └── security-review/
+        ├── security/
+        │   └── security-review/
+        │       ├── SKILL.md
+        │       ├── GLOSSARY.md
+        │       ├── VULNERABILITY-TAXONOMY.md
+        │       ├── SCORING-RUBRIC.md
+        │       └── REMEDIATION-PATTERNS.md
+        └── engineering/
+            └── production-ready/
                 ├── SKILL.md
                 ├── GLOSSARY.md
-                ├── VULNERABILITY-TAXONOMY.md
+                ├── READINESS-CHECKLIST.md
                 ├── SCORING-RUBRIC.md
                 └── REMEDIATION-PATTERNS.md
 ```
