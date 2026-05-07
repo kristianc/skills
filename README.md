@@ -62,6 +62,14 @@ Pricing, positioning, and go-to-market strategy.
 | [ideal-customer-profile](./skills/gtm/ideal-customer-profile/SKILL.md) | Define who gets disproportionate value from the product with qualifying and disqualifying criteria. |
 | [launch-brief](./skills/gtm/launch-brief/SKILL.md) | Structure a launch around audience, message, channel, and timing through a grilling process that forces articulation of why anyone should care. |
 
+### Security
+
+Defensive security auditing for your own product.
+
+| Skill | Description |
+|-------|-------------|
+| [security-review](./skills/security/security-review/SKILL.md) | Audit a codebase for security vulnerabilities — OWASP Top 10, auth/authz gaps, secrets in code, injection vectors, and dependency risks. |
+
 ## Structure
 
 ```
@@ -94,34 +102,41 @@ skills/
     │       ├── ASSUMPTION-TYPES.md
     │       ├── FRICTION-MAP-FORMAT.md
     │       └── REMEDIES.md
-    └── gtm/
-        ├── pricing-research/
-        │   ├── SKILL.md
-        │   ├── GLOSSARY.md
-        │   ├── METHODOLOGY.md
-        │   ├── VAN-WESTENDORP.md
-        │   ├── SEGMENTATION.md
-        │   ├── BANDED-ANALYSIS.md
-        │   ├── REVENUE-MIX.md
-        │   └── REPORT-TEMPLATE.md
-        ├── competitive-positioning/
-        │   ├── SKILL.md
-        │   ├── GLOSSARY.md
-        │   ├── RESEARCH-FRAMEWORK.md
-        │   ├── AXES.md
-        │   └── POSITIONING-DOCUMENT.md
-        ├── ideal-customer-profile/
-        │   ├── SKILL.md
-        │   ├── GLOSSARY.md
-        │   ├── QUALIFYING-CRITERIA.md
-        │   ├── SCORING-FRAMEWORK.md
-        │   └── ICP-DOCUMENT.md
-        └── launch-brief/
-            ├── SKILL.md
-            ├── AUDIENCE-GRILLING.md
-            ├── MESSAGE-TESTING.md
-            ├── BRIEF-FORMAT.md
-            └── CHANNEL-SELECTION.md
+    ├── gtm/
+        │   ├── pricing-research/
+        │   │   ├── SKILL.md
+        │   │   ├── GLOSSARY.md
+        │   │   ├── METHODOLOGY.md
+        │   │   ├── VAN-WESTENDORP.md
+        │   │   ├── SEGMENTATION.md
+        │   │   ├── BANDED-ANALYSIS.md
+        │   │   ├── REVENUE-MIX.md
+        │   │   └── REPORT-TEMPLATE.md
+        │   ├── competitive-positioning/
+        │   │   ├── SKILL.md
+        │   │   ├── GLOSSARY.md
+        │   │   ├── RESEARCH-FRAMEWORK.md
+        │   │   ├── AXES.md
+        │   │   └── POSITIONING-DOCUMENT.md
+        │   ├── ideal-customer-profile/
+        │   │   ├── SKILL.md
+        │   │   ├── GLOSSARY.md
+        │   │   ├── QUALIFYING-CRITERIA.md
+        │   │   ├── SCORING-FRAMEWORK.md
+        │   │   └── ICP-DOCUMENT.md
+        │   └── launch-brief/
+        │       ├── SKILL.md
+        │       ├── AUDIENCE-GRILLING.md
+        │       ├── MESSAGE-TESTING.md
+        │       ├── BRIEF-FORMAT.md
+        │       └── CHANNEL-SELECTION.md
+        └── security/
+            └── security-review/
+                ├── SKILL.md
+                ├── GLOSSARY.md
+                ├── VULNERABILITY-TAXONOMY.md
+                ├── SCORING-RUBRIC.md
+                └── REMEDIATION-PATTERNS.md
 ```
 
 ## Creating new skills
