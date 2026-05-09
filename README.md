@@ -50,6 +50,7 @@ Skills for raising the craft level of what already exists.
 | [audit-empty-states](./skills/product/audit-empty-states/SKILL.md) | Find every empty state and rewrite them from "nothing here" into actionable moments. |
 | [error-copy-review](./skills/product/error-copy-review/SKILL.md) | Find every error message and rewrite it in the product's voice with a path to recovery. |
 | [onboarding-friction](./skills/product/onboarding-friction/SKILL.md) | Walk the first-run experience and map every moment the product assumes knowledge the user doesn't have. |
+| [ai-design-polish](./skills/product/ai-design-polish/SKILL.md) | Elevate AI-generated designs from functional-but-generic to premium. Close the gap between "generated" and "crafted" for landing pages, dashboards, and marketing sites. |
 
 ### GTM
 
@@ -106,11 +107,17 @@ skills/
     │   │   ├── SCORING-RUBRIC.md
     │   │   ├── COPY-PATTERNS.md
     │   │   └── VALIDATION-MESSAGES.md
-    │   └── onboarding-friction/
+    │   ├── onboarding-friction/
+    │   │   ├── SKILL.md
+    │   │   ├── ASSUMPTION-TYPES.md
+    │   │   ├── FRICTION-MAP-FORMAT.md
+    │   │   └── REMEDIES.md
+    │   └── ai-design-polish/
     │       ├── SKILL.md
-    │       ├── ASSUMPTION-TYPES.md
-    │       ├── FRICTION-MAP-FORMAT.md
-    │       └── REMEDIES.md
+    │       ├── REFERENCE-PATTERNS.md
+    │       ├── AUDIT-CHECKLIST.md
+    │       ├── ELEVATION-PATTERNS.md
+    │       └── COPY-UPGRADE.md
     ├── gtm/
         │   ├── pricing-research/
         │   │   ├── SKILL.md
