@@ -77,6 +77,7 @@ Production engineering and operational readiness.
 | Skill | Description |
 |-------|-------------|
 | [production-ready](./skills/engineering/production-ready/SKILL.md) | Audit whether a feature or product is ready to survive real users at scale — error handling, observability, deployment safety, resilience, and operational readiness. |
+| [handoff](./skills/engineering/handoff/SKILL.md) | Turn conversation context into a spec and independently-grabbable vertical-slice issues for humans or agents. |
 
 ## Structure
 
@@ -146,12 +147,18 @@ skills/
         │       ├── SCORING-RUBRIC.md
         │       └── REMEDIATION-PATTERNS.md
         └── engineering/
-            └── production-ready/
+            ├── production-ready/
+            │   ├── SKILL.md
+            │   ├── GLOSSARY.md
+            │   ├── READINESS-CHECKLIST.md
+            │   ├── SCORING-RUBRIC.md
+            │   └── REMEDIATION-PATTERNS.md
+            └── handoff/
                 ├── SKILL.md
                 ├── GLOSSARY.md
-                ├── READINESS-CHECKLIST.md
-                ├── SCORING-RUBRIC.md
-                └── REMEDIATION-PATTERNS.md
+                ├── SPEC-FORMAT.md
+                ├── SLICING.md
+                └── ISSUE-FORMAT.md
 ```
 
 ## Creating new skills

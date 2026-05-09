@@ -10,6 +10,7 @@
     "./skills/gtm/ideal-customer-profile",
     "./skills/gtm/launch-brief",
     "./skills/security/security-review",
-    "./skills/engineering/production-ready"
+    "./skills/engineering/production-ready",
+    "./skills/engineering/handoff"
   ]
 }
