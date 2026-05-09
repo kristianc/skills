@@ -51,6 +51,7 @@ Skills for raising the craft level of what already exists.
 | [error-copy-review](./skills/product/error-copy-review/SKILL.md) | Find every error message and rewrite it in the product's voice with a path to recovery. |
 | [onboarding-friction](./skills/product/onboarding-friction/SKILL.md) | Walk the first-run experience and map every moment the product assumes knowledge the user doesn't have. |
 | [ai-design-polish](./skills/product/ai-design-polish/SKILL.md) | Elevate AI-generated designs from functional-but-generic to premium. Close the gap between "generated" and "crafted" for landing pages, dashboards, and marketing sites. |
+| [trust-building-patterns](./skills/product/trust-building-patterns/SKILL.md) | Audit and improve trust signals — social proof, pricing transparency, security indicators, honest copy, and risk reduction patterns that make users confident enough to sign up, pay, and stay. |
 
 ### GTM
 
@@ -112,12 +113,18 @@ skills/
     │   │   ├── ASSUMPTION-TYPES.md
     │   │   ├── FRICTION-MAP-FORMAT.md
     │   │   └── REMEDIES.md
-    │   └── ai-design-polish/
+    │   ├── ai-design-polish/
+    │   │   ├── SKILL.md
+    │   │   ├── REFERENCE-PATTERNS.md
+    │   │   ├── AUDIT-CHECKLIST.md
+    │   │   ├── ELEVATION-PATTERNS.md
+    │   │   └── COPY-UPGRADE.md
+    │   └── trust-building-patterns/
     │       ├── SKILL.md
-    │       ├── REFERENCE-PATTERNS.md
-    │       ├── AUDIT-CHECKLIST.md
-    │       ├── ELEVATION-PATTERNS.md
-    │       └── COPY-UPGRADE.md
+    │       ├── GLOSSARY.md
+    │       ├── TRUST-SIGNALS.md
+    │       ├── ANTI-PATTERNS.md
+    │       └── SCORING-RUBRIC.md
     ├── gtm/
         │   ├── pricing-research/
         │   │   ├── SKILL.md
