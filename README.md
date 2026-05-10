@@ -81,6 +81,7 @@ Production engineering and operational readiness.
 |-------|-------------|
 | [production-ready](./skills/engineering/production-ready/SKILL.md) | Audit whether a feature or product is ready to survive real users at scale — error handling, observability, deployment safety, resilience, and operational readiness. |
 | [handoff](./skills/engineering/handoff/SKILL.md) | Turn conversation context into a spec and independently-grabbable vertical-slice issues for humans or agents. |
+| [vibe-code-antipatterns](./skills/engineering/vibe-code-antipatterns/SKILL.md) | Audit a codebase for structural problems common in AI-generated code — god components, missing error handling, copy-paste duplication, inconsistent patterns, and happy-path-only logic. |
 
 ## Structure
 
@@ -174,12 +175,18 @@ skills/
             │   ├── READINESS-CHECKLIST.md
             │   ├── SCORING-RUBRIC.md
             │   └── REMEDIATION-PATTERNS.md
-            └── handoff/
+            ├── handoff/
+            │   ├── SKILL.md
+            │   ├── GLOSSARY.md
+            │   ├── SPEC-FORMAT.md
+            │   ├── SLICING.md
+            │   └── ISSUE-FORMAT.md
+            └── vibe-code-antipatterns/
                 ├── SKILL.md
-                ├── GLOSSARY.md
-                ├── SPEC-FORMAT.md
-                ├── SLICING.md
-                └── ISSUE-FORMAT.md
+                ├── SMELL-TAXONOMY.md
+                ├── SCORING-RUBRIC.md
+                ├── REFACTORING-PLAYBOOK.md
+                └── DETECTION-PATTERNS.md
 ```
 
 ## Creating new skills
