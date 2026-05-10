@@ -52,6 +52,7 @@ Skills for raising the craft level of what already exists.
 | [onboarding-friction](./skills/product/onboarding-friction/SKILL.md) | Walk the first-run experience and map every moment the product assumes knowledge the user doesn't have. |
 | [ai-design-polish](./skills/product/ai-design-polish/SKILL.md) | Elevate AI-generated designs from functional-but-generic to premium. Close the gap between "generated" and "crafted" for landing pages, dashboards, and marketing sites. |
 | [trust-building-patterns](./skills/product/trust-building-patterns/SKILL.md) | Audit and improve trust signals — social proof, pricing transparency, security indicators, honest copy, and risk reduction patterns that make users confident enough to sign up, pay, and stay. |
+| [website-teardown](./skills/product/website-teardown/SKILL.md) | Perform a structured teardown of any website, breaking down what works, what doesn't, and why across first impression, copy, design, conversion, and trust. |
 
 ### GTM
 
@@ -119,12 +120,18 @@ skills/
     │   │   ├── AUDIT-CHECKLIST.md
     │   │   ├── ELEVATION-PATTERNS.md
     │   │   └── COPY-UPGRADE.md
-    │   └── trust-building-patterns/
+    │   ├── trust-building-patterns/
+    │   │   ├── SKILL.md
+    │   │   ├── GLOSSARY.md
+    │   │   ├── TRUST-SIGNALS.md
+    │   │   ├── ANTI-PATTERNS.md
+    │   │   └── SCORING-RUBRIC.md
+    │   └── website-teardown/
     │       ├── SKILL.md
-    │       ├── GLOSSARY.md
-    │       ├── TRUST-SIGNALS.md
-    │       ├── ANTI-PATTERNS.md
-    │       └── SCORING-RUBRIC.md
+    │       ├── DIMENSIONS.md
+    │       ├── TEARDOWN-FORMAT.md
+    │       ├── COMPARATIVE-TEARDOWN.md
+    │       └── PATTERN-EXTRACTION.md
     ├── gtm/
         │   ├── pricing-research/
         │   │   ├── SKILL.md
