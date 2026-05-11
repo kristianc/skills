@@ -64,6 +64,7 @@ Pricing, positioning, and go-to-market strategy.
 | [competitive-positioning](./skills/gtm/competitive-positioning/SKILL.md) | Analyze what competitors claim vs. deliver and define where the product wins on axes they can't match. |
 | [ideal-customer-profile](./skills/gtm/ideal-customer-profile/SKILL.md) | Define who gets disproportionate value from the product with qualifying and disqualifying criteria. |
 | [launch-brief](./skills/gtm/launch-brief/SKILL.md) | Structure a launch around audience, message, channel, and timing through a grilling process that forces articulation of why anyone should care. |
+| [seo-aeo](./skills/gtm/seo-aeo/SKILL.md) | Audit and improve search engine optimization and answer engine optimization — traditional SEO for Google rankings plus AEO for AI-powered search (ChatGPT, Perplexity, AI Overviews). |
 
 ### Security
 
@@ -155,12 +156,18 @@ skills/
         │   │   ├── QUALIFYING-CRITERIA.md
         │   │   ├── SCORING-FRAMEWORK.md
         │   │   └── ICP-DOCUMENT.md
-        │   └── launch-brief/
+        │   ├── launch-brief/
+        │   │   ├── SKILL.md
+        │   │   ├── AUDIENCE-GRILLING.md
+        │   │   ├── MESSAGE-TESTING.md
+        │   │   ├── BRIEF-FORMAT.md
+        │   │   └── CHANNEL-SELECTION.md
+        │   └── seo-aeo/
         │       ├── SKILL.md
-        │       ├── AUDIENCE-GRILLING.md
-        │       ├── MESSAGE-TESTING.md
-        │       ├── BRIEF-FORMAT.md
-        │       └── CHANNEL-SELECTION.md
+        │       ├── GLOSSARY.md
+        │       ├── TECHNICAL-CHECKLIST.md
+        │       ├── CONTENT-FRAMEWORK.md
+        │       └── AEO-PATTERNS.md
         ├── security/
         │   └── security-review/
         │       ├── SKILL.md
