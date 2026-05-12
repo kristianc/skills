@@ -65,6 +65,7 @@ Pricing, positioning, and go-to-market strategy.
 | [ideal-customer-profile](./skills/gtm/ideal-customer-profile/SKILL.md) | Define who gets disproportionate value from the product with qualifying and disqualifying criteria. |
 | [launch-brief](./skills/gtm/launch-brief/SKILL.md) | Structure a launch around audience, message, channel, and timing through a grilling process that forces articulation of why anyone should care. |
 | [seo-aeo](./skills/gtm/seo-aeo/SKILL.md) | Audit and improve search engine optimization and answer engine optimization — traditional SEO for Google rankings plus AEO for AI-powered search (ChatGPT, Perplexity, AI Overviews). |
+| [content-teardown](./skills/gtm/content-teardown/SKILL.md) | Perform a structured teardown of a blog post, article, or written content — analyzing structure, argument quality, audience fit, readability, voice, originality, and discoverability. |
 
 ### Security
 
@@ -162,12 +163,18 @@ skills/
         │   │   ├── MESSAGE-TESTING.md
         │   │   ├── BRIEF-FORMAT.md
         │   │   └── CHANNEL-SELECTION.md
-        │   └── seo-aeo/
+        │   ├── seo-aeo/
+        │   │   ├── SKILL.md
+        │   │   ├── GLOSSARY.md
+        │   │   ├── TECHNICAL-CHECKLIST.md
+        │   │   ├── CONTENT-FRAMEWORK.md
+        │   │   └── AEO-PATTERNS.md
+        │   └── content-teardown/
         │       ├── SKILL.md
-        │       ├── GLOSSARY.md
-        │       ├── TECHNICAL-CHECKLIST.md
-        │       ├── CONTENT-FRAMEWORK.md
-        │       └── AEO-PATTERNS.md
+        │       ├── DIMENSIONS.md
+        │       ├── TEARDOWN-FORMAT.md
+        │       ├── VOICE-ANALYSIS.md
+        │       └── EVIDENCE-FRAMEWORK.md
         ├── security/
         │   └── security-review/
         │       ├── SKILL.md
