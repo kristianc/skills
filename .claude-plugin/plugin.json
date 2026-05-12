@@ -17,6 +17,7 @@
     "./skills/security/security-review",
     "./skills/engineering/production-ready",
     "./skills/engineering/handoff",
-    "./skills/engineering/vibe-code-antipatterns"
+    "./skills/engineering/vibe-code-antipatterns",
+    "./skills/engineering/daily-standup"
   ]
 }
