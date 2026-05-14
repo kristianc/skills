@@ -86,6 +86,7 @@ Production engineering and operational readiness.
 | [handoff](./skills/engineering/handoff/SKILL.md) | Turn conversation context into a spec and independently-grabbable vertical-slice issues for humans or agents. |
 | [vibe-code-antipatterns](./skills/engineering/vibe-code-antipatterns/SKILL.md) | Audit a codebase for structural problems common in AI-generated code — god components, missing error handling, copy-paste duplication, inconsistent patterns, and happy-path-only logic. |
 | [daily-standup](./skills/engineering/daily-standup/SKILL.md) | Scan the codebase, issues, and recent commits to generate a prioritized daily work plan of 36-48 hours of optimizations that compress to under 24 hours with agent assistance. |
+| [release-candidate-validator](./skills/engineering/release-candidate-validator/SKILL.md) | Validate whether a release candidate is safe to ship — breaking changes, dependency risks, migration safety, changelog completeness, scope integrity, and rollback viability. |
 
 ## Structure
 
@@ -209,12 +210,18 @@ skills/
             │   ├── SCORING-RUBRIC.md
             │   ├── REFACTORING-PLAYBOOK.md
             │   └── DETECTION-PATTERNS.md
-            └── daily-standup/
+            ├── daily-standup/
+            │   ├── SKILL.md
+            │   ├── SCAN-SOURCES.md
+            │   ├── PRIORITIZATION.md
+            │   ├── PLAN-FORMAT.md
+            │   └── RECURRING-PATTERNS.md
+            └── release-candidate-validator/
                 ├── SKILL.md
-                ├── SCAN-SOURCES.md
-                ├── PRIORITIZATION.md
-                ├── PLAN-FORMAT.md
-                └── RECURRING-PATTERNS.md
+                ├── GLOSSARY.md
+                ├── VALIDATION-CHECKLIST.md
+                ├── SCORING-RUBRIC.md
+                └── REMEDIATION-PATTERNS.md
 ```
 
 ## Creating new skills

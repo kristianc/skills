@@ -19,6 +19,7 @@
     "./skills/engineering/production-ready",
     "./skills/engineering/handoff",
     "./skills/engineering/vibe-code-antipatterns",
-    "./skills/engineering/daily-standup"
+    "./skills/engineering/daily-standup",
+    "./skills/engineering/release-candidate-validator"
   ]
 }
