@@ -21,7 +21,7 @@ Use the Agent tool with `subagent_type=Explore` to walk the codebase. Build a ma
 
 For each concept, record every name, label, and treatment found. Note the file and component where each instance lives. The goal is a complete picture before any judgment — don't fix anything yet.
 
-See CONSISTENCY-DIMENSIONS.md for the seven dimensions to check and specific grep patterns for each.
+See CONSISTENCY-DIMENSIONS.md for the eight dimensions to check (including a dedicated button styling pass) and specific grep patterns for each.
 
 ### 2. Diff
 

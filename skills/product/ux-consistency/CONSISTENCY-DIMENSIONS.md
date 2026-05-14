@@ -212,3 +212,47 @@ Internal names leak into the UI through error messages, URL paths, and auto-gene
 ### Severity
 
 **Medium.** Terminology leaks confuse users when they encounter them and confuse developers all the time. The fix is usually a mapping layer (display name vs. internal name) plus a pass through error messages and auto-generated strings. Not as impactful as naming or interaction consistency for users, but often the cheapest win for developer experience.
+
+---
+
+## 8. Button Styling
+
+Same button type, same visual treatment.
+
+### What to look for
+
+Button styling is the single most common source of visual drift in component-driven apps. Even with a well-defined `<Button>` component and a cva/variant system, individual pages accumulate one-off overrides — custom heights, padding, border radii, colors, and transitions that bypass the component's design tokens. The result is buttons that are technically the same component but look subtly different across screens.
+
+This dimension gets its own pass because button inconsistencies are high-frequency, high-visibility, and cheap to fix.
+
+### How to find it in code
+
+**Step 1: Read the Button component definition.** Before flagging anything, understand the canonical variants, sizes, base styles, and transitions. Know what `default`, `outline`, `ghost`, `destructive` look like. Know the size scale (`default`, `sm`, `lg`, `xl`, `icon`). Know the base classes (border-radius, transition, focus ring).
+
+**Step 2: Scan every page and component for these patterns:**
+
+1. **Raw `<button>` elements acting as CTAs.** Search for `<button` with `className=` that includes color or sizing classes. If it functions as a CTA (create, submit, navigate, save), it should use the `<Button>` component or match its styles exactly. Common smell: `bg-blue-600 text-white rounded hover:bg-blue-700` — a raw button styled from scratch instead of using the component.
+
+2. **CTA color drift.** Search for `bg-blue-600`, `bg-slate-900`, `bg-gray-900`, `bg-indigo-600`, or any non-canonical color on primary action buttons. The canonical primary CTA color is defined in the Button component — find it and enforce it everywhere. Also flag inline `style={{ backgroundColor: ... }}` on any button.
+
+3. **Border-radius overrides.** If the Button component base sets `rounded-xl`, search for `rounded-lg`, `rounded-md`, `rounded-sm`, or bare `rounded` on any `<Button>` or `<button>` that acts as a CTA. These bypass the design system.
+
+4. **Size overrides.** If the component defines sizes like `h-10 px-4` (default) and `h-8 px-3` (sm), flag any one-off heights like `h-9`, `h-7`, `h-6` or custom padding like `px-2`, `px-5`, `py-1` on buttons — unless the button is an icon-only button (`size="icon"`).
+
+5. **Transition overrides.** If the base uses `transition-all duration-200`, flag any `transition-colors` or missing transition on buttons. This causes inconsistent hover/focus animation behavior.
+
+6. **Create/Add button text patterns.** Decide on one canonical pattern for create-action wording. Common choice: `Action Text +` with a unicode plus at end, no icon. Flag any `<Plus icon> Text` or `Text <Plus icon>` patterns if the standard is unicode, or vice versa. The key is consistency — pick one and enforce it everywhere.
+
+7. **Default variant misuse on primary CTAs.** The Button component's `default` variant is typically a dark neutral color. If the app's primary CTA convention uses a brand/accent color (e.g. violet), then a `<Button>` with no explicit variant or `variant="default"` used as the main action on a page/card/modal/empty-state is a mismatch — it should use the accent color explicitly.
+
+### What good looks like
+
+Every button that serves the same purpose looks identical. Primary CTAs use the same color, radius, height, padding, and transition everywhere. Create buttons use the same text pattern. Raw `<button>` elements don't exist as CTAs — they only appear for truly custom interactive elements (dropdown triggers, toggle handles) where the Button component's defaults would interfere. No inline style overrides on any button.
+
+### What bad looks like
+
+The same page has a `bg-violet-600` CTA button next to a `bg-gray-900` default-variant button and neither looks wrong in isolation, but together they signal two competing conventions. Another page uses raw `<button className="px-4 py-2 bg-blue-600 rounded">` because someone copied from a tutorial. A third page has `h-9 px-4 rounded-lg` because someone tried to split the difference between the `sm` and `default` sizes. Each button looks fine alone; together they make the product feel like a patchwork.
+
+### Severity
+
+**Medium-high.** Buttons are the most interacted-with elements in any UI. Users see dozens per session. Inconsistent buttons don't block functionality, but they visually fragment the product more than almost any other component. The fix is almost always a className change — no refactoring, no behavior change, no risk. High visibility, low effort. Fix these early.
