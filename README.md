@@ -53,6 +53,7 @@ Skills for raising the craft level of what already exists.
 | [ai-design-polish](./skills/product/ai-design-polish/SKILL.md) | Elevate AI-generated designs from functional-but-generic to premium. Close the gap between "generated" and "crafted" for landing pages, dashboards, and marketing sites. |
 | [trust-building-patterns](./skills/product/trust-building-patterns/SKILL.md) | Audit and improve trust signals — social proof, pricing transparency, security indicators, honest copy, and risk reduction patterns that make users confident enough to sign up, pay, and stay. |
 | [website-teardown](./skills/product/website-teardown/SKILL.md) | Perform a structured teardown of any website, breaking down what works, what doesn't, and why across first impression, copy, design, conversion, and trust. |
+| [ux-consistency](./skills/product/ux-consistency/SKILL.md) | Audit a product for consistency — finding where the same concept is named, styled, or handled differently across screens, components, and flows. |
 
 ### GTM
 
@@ -130,12 +131,18 @@ skills/
     │   │   ├── TRUST-SIGNALS.md
     │   │   ├── ANTI-PATTERNS.md
     │   │   └── SCORING-RUBRIC.md
-    │   └── website-teardown/
+    │   ├── website-teardown/
+    │   │   ├── SKILL.md
+    │   │   ├── DIMENSIONS.md
+    │   │   ├── TEARDOWN-FORMAT.md
+    │   │   ├── COMPARATIVE-TEARDOWN.md
+    │   │   └── PATTERN-EXTRACTION.md
+    │   └── ux-consistency/
     │       ├── SKILL.md
-    │       ├── DIMENSIONS.md
-    │       ├── TEARDOWN-FORMAT.md
-    │       ├── COMPARATIVE-TEARDOWN.md
-    │       └── PATTERN-EXTRACTION.md
+    │       ├── CONSISTENCY-DIMENSIONS.md
+    │       ├── CLASSIFICATION.md
+    │       ├── AUDIT-FORMAT.md
+    │       └── PREVENTION.md
     ├── gtm/
         │   ├── pricing-research/
         │   │   ├── SKILL.md

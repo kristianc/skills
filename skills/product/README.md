@@ -9,3 +9,4 @@ Skills for raising the craft level of what already exists. Not for proposing new
 - **[ai-design-polish](./ai-design-polish/SKILL.md)** — Elevate AI-generated designs from functional-but-generic to premium. Close the gap between "generated" and "crafted."
 - **[trust-building-patterns](./trust-building-patterns/SKILL.md)** — Audit and improve trust signals — social proof, pricing transparency, security indicators, honest copy, and risk reduction patterns.
 - **[website-teardown](./website-teardown/SKILL.md)** — Perform a structured teardown of any website, breaking down what works, what doesn't, and why across first impression, copy, design, conversion, and trust.
+- **[ux-consistency](./ux-consistency/SKILL.md)** — Audit a product for consistency — finding where the same concept is named, styled, or handled differently across screens, components, and flows.
